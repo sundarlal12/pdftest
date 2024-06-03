@@ -1,0 +1,20 @@
+{
+  "name": "nodehost",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+
+"express": "^4.14.0",
+    "mongoose": "^8.3.3",
+    "puppeteer": "^22.8.0",
+    "chai": "^4.3.6", 
+    "mocha": "^10.0.0"
+  }
+}
