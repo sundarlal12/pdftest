@@ -62,7 +62,7 @@ app.get('/', async (req, res) => {
     // Send the PDF buffer as a response
     res.send(pdfBuffer);
   } catch (error) {
-    console.error('Error generating PDF:', error);
+    console.error('Error generating PDF:!!!!!', error);
     res.status(500).send('Error generating PDF!!!');
   }
 });
