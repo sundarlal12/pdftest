@@ -24,7 +24,7 @@ const port=3000;
 
 app.get('/', async (req, res) => {
   try {
-    const browser = await puppeteer.launch();
+    const browser = await puppeteer.launch({headless:false});
     const page = await browser.newPage();
 
         // const browser = await puppeteer.launch({headless:false})
